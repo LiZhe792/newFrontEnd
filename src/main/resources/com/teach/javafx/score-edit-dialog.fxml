@@ -44,7 +44,7 @@
                <Insets right="5.0" />
             </GridPane.margin>
          </Label>
-         <TextField fx:id="markField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         <TextField fx:id="marksField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
       </children>
    </GridPane>
    <FlowPane alignment="CENTER" prefHeight="40.0" prefWidth="300.0" BorderPane.alignment="CENTER">

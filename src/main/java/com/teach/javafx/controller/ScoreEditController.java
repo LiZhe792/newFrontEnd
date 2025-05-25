@@ -24,7 +24,7 @@ public class ScoreEditController {
     private ComboBox<OptionItem> courseComboBox;
     private List<OptionItem> courseList;
     @FXML
-    private TextField markField;
+    private TextField marksField;
     private ScoreTableController scoreTableController= null;
     private Integer scoreId= null;
     @FXML
@@ -37,14 +37,14 @@ public class ScoreEditController {
         OptionItem op;
         op = studentComboBox.getSelectionModel().getSelectedItem();
         if(op != null) {
-            data.put("personId",Integer.parseInt(op.getValue()));
+            data.put("studentId",Integer.parseInt(op.getValue()));
         }
         op = courseComboBox.getSelectionModel().getSelectedItem();
         if(op != null) {
             data.put("courseId", Integer.parseInt(op.getValue()));
         }
         data.put("scoreId",scoreId);
-        data.put("mark",markField.getText());
+        data.put("marks",marksField.getText());
         scoreTableController.doClose("ok",data);
     }
     @FXML
@@ -68,14 +68,14 @@ public class ScoreEditController {
             courseComboBox.getSelectionModel().select(-1);
             studentComboBox.setDisable(false);
             courseComboBox.setDisable(false);
-            markField.setText("");
+            marksField.setText("");
         }else {
             scoreId = CommonMethod.getInteger(data,"scoreId");
-            studentComboBox.getSelectionModel().select(CommonMethod.getOptionItemIndexByValue(studentList, CommonMethod.getString(data, "personId")));
+            studentComboBox.getSelectionModel().select(CommonMethod.getOptionItemIndexByValue(studentList, CommonMethod.getString(data, "studentId")));
             courseComboBox.getSelectionModel().select(CommonMethod.getOptionItemIndexByValue(courseList, CommonMethod.getString(data, "courseId")));
             studentComboBox.setDisable(true);
             courseComboBox.setDisable(true);
-            markField.setText(CommonMethod.getString(data, "mark"));
+            marksField.setText(CommonMethod.getString(data, "marks"));
         }
     }
 }

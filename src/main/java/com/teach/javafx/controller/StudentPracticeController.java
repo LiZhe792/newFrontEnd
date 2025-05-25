@@ -189,15 +189,10 @@ public class StudentPracticeController extends ToolController {
         practiceResultField.setText(CommonMethod.getString(practice, "practiceResult"));
         practiceSummaryField.setText(CommonMethod.getString(practice, "practiceSummary"));
         practicePlaceField.setText(CommonMethod.getString(practice, "practicePlace"));
-        Map<String, Object> student = (Map<String, Object>) practice.get("student");
-        Map<String, Object> person = (Map<String, Object>) student.get("person");
-        if (student != null&& person != null) {
-            studentNumField.setText(CommonMethod.getString(person, "num"));
-            studentNameField.setText(CommonMethod.getString(person, "name"));
-        } else {
-            studentNumField.setText("");
-            studentNameField.setText("");
-        }
+        studentNumField.setText(CommonMethod.getString(practice, "studentNum"));
+        studentNameField.setText(CommonMethod.getString(practice, "studentName"));
+
+
 
     }
 

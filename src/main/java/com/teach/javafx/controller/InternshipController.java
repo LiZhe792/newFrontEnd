@@ -241,6 +241,7 @@ public class InternshipController extends ToolController {
 
             // 获取学生信息
             req = new DataRequest();
+            // 学生表ID - student id
             req.add("personId", personId);
             res = HttpRequestUtil.request("/api/student/getStudentInfo", req);
 

@@ -2,13 +2,14 @@ package com.teach.javafx.util;
 
 
 import com.teach.javafx.request.OptionItem;
-/**
- * CommonMethod 公共处理方法实例类
- */
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
-
+/**
+ * CommonMethod 公共处理方法实例类
+ */
+@SuppressWarnings("unused")
 public class CommonMethod {
     public static String[] getStrings(Map<String,Object> data,String key){
         Object obj = data.get(key);
@@ -60,6 +61,7 @@ public class CommonMethod {
         if(obj == null)
             return new HashMap<>();
         if(obj instanceof Map)
+            //noinspection unchecked
             return (Map<String,Object>)obj;
         else
             return new HashMap<>();
@@ -179,6 +181,16 @@ public class CommonMethod {
         }
         return -1;
     }
+    public static int getStringListIndex(List<String>itemList, String value){
+        if(value == null)
+            return -1;
+        for(int i = 0; i < itemList.size();i++) {
+            if(itemList.get(i).equals(value))
+                return i;
+        }
+        return -1;
+    }
+
     public static int getOptionItemIndexByValue(List<OptionItem>itemList, String value){
         if(value == null || value.isEmpty())
             return -1;
