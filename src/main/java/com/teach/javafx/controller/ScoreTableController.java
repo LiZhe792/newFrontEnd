@@ -41,8 +41,8 @@ public class ScoreTableController {
     private TableColumn<Map,String> marksColumn;
     @FXML
     private TableColumn<Map, Button> editColumn;
-    @FXML
-    private Label studentNameLabel;
+//    @FXML
+//    private Label studentNameLabel;
 
 
     private ArrayList<Map> scoreList = new ArrayList();  // 学生信息列表数据
@@ -179,7 +179,7 @@ public class ScoreTableController {
             onQueryButtonClick();
         }
         else{
-            studentNameLabel.setText(userName);
+//            studentNameLabel.setText(userName);
             studentNumColumn.setCellValueFactory(new MapValueFactory("studentNum"));  //设置列值工程属性
             studentNameColumn.setCellValueFactory(new MapValueFactory<>("studentName"));
             classNameColumn.setCellValueFactory(new MapValueFactory<>("className"));

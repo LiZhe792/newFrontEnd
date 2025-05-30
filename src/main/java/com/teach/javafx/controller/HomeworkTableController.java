@@ -55,8 +55,7 @@ public class HomeworkTableController {
     private DatePicker timePicker;
 
     private List<OptionItem> studentList;
-    @FXML
-    private Label studentName;
+
 
     @FXML
     private ComboBox<OptionItem> inputStudent;
@@ -144,7 +143,6 @@ public class HomeworkTableController {
             courseNumColumn.setCellValueFactory(new MapValueFactory<>("courseNum"));
             timeColumn.setCellValueFactory(new MapValueFactory<>("time"));
             marksColumn.setCellValueFactory(new MapValueFactory<>("marks"));
-            studentName.setText(userName);
             DataRequest req =new DataRequest();
             //studentList = HttpRequestUtil.requestOptionItemList("/api/homework/getStudentItemOptionList",req); //从后台获取所有学生信息列表集合*/
             courseList = HttpRequestUtil.requestOptionItemList("/api/courseAttendance/getCourseItemOptionList",req); //从后台获取所有学生信息列表集合

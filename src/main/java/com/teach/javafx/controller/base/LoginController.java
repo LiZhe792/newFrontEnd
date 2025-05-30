@@ -32,8 +32,8 @@ public class LoginController {
     public void initialize() {
 //        usernameField.setText("2022030001");
 //        usernameField.setText("200799013517");
-        usernameField.setText("admin");
-        passwordField.setText("123456");
+        usernameField.setText("");//admin
+        passwordField.setText("");//123456
 //        vbox.setId("min");  // id选择器 #
 //        vbox.getStyleClass().add("min");  类选择器 .
         vbox.setStyle("-fx-background-image: url('shanda1.jpg'); -fx-background-repeat: no-repeat; -fx-background-size: cover;");  //inline选择器
@@ -44,9 +44,9 @@ public class LoginController {
      *  点击登录按钮 执行onLoginButtonClick 方法 从面板上获取用户名和密码，请求后台登录服务，登录成功加载主框架，切换舞台到主框架，登录不成功，提示错误信息
      */
     @FXML
-    protected void onLoginButtonClick() {
-        String username = usernameField.getText();
-        String password = passwordField.getText();
+    protected void onLoginButtonClick(String username, String password) {
+        //String username = usernameField.getText();
+        //String password = passwordField.getText();
         LoginRequest loginRequest = new LoginRequest(username,password);
         String msg = HttpRequestUtil.login(loginRequest);
         if(msg != null) {
@@ -57,9 +57,22 @@ public class LoginController {
         try {
             Scene scene = new Scene(fxmlLoader.load(), -1, -1);
             AppStore.setMainFrameController((MainFrameController) fxmlLoader.getController());
-            MainApplication.resetStage("教学管理系统", scene);
+            MainApplication.resetStage("学生管理系统", scene);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    @FXML
+    public void onAdminLoginButtonClick() {
+        onLoginButtonClick("admin","123456");
+    }
+    @FXML
+    public void onStudentLoginButtonClick() {
+        onLoginButtonClick("2022030002","123456");
+    }
+    @FXML
+    public void onTeacherLoginButtonClick() {
+        onLoginButtonClick("200799013517","123456");
     }
 }

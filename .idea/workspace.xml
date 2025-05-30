@@ -4,90 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="362622a0-3a93-431c-82eb-e584bb1e232b" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/CourseAttendanceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/CourseChooseEditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/CourseChooseTableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/CourseEditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/HomeworkEditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/HomeworkTableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/MarksController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/RanksController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/StudentCompetitionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/StudentCourseSelectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/base/CourseAttendanceEditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/Course/course-edit-dialog.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/Course/course-panel.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/courseAttendance/course-attendance-edit-dialog.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/courseAttendance/course-attendance-panel.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/courseAttendance/student-attendance.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/courseChoose/course-choose-edit-dialog.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/courseChoose/course-choose-panel.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/courseChoose/student-courseChoose.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/add.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/border.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/button_blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/button_green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/button_orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/button_purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/button_red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/button_shadow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-badge.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-check-box.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-colors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-drawer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-loading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-notification.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-radio-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-switch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-tab-pane.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-table-view.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/cf-text-field.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/field.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/general-format.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/highlight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/login-view-highlight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/loginTextField.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/mainHighlight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/menu_bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/mytable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/newTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/passwordHighlight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/student-view-highlight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/tab_pane.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/css/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/homeWork/student-work.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/homeWork/work-dialog.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/homeWork/work-panel.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/mark/mark-panel.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/mark/student-mark.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/mark/totalRank.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/java_fx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/CourseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/InternshipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/InternshipController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/ScoreEditController.java" beforeDir="false" />
+    <list default="true" id="362622a0-3a93-431c-82eb-e584bb1e232b" name="更改" comment="代码合并2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/HomeworkTableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/HomeworkTableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/MarksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/MarksController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/ScoreTableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/ScoreTableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/StudentPracticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/StudentPracticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/base/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/base/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/teach/javafx/util/CommonMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teach/javafx/util/CommonMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/competition-panel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/competition-panel.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/family-member_panel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/family-member_panel.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/score-edit-dialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/score-edit-dialog.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/score-table-panel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/score-table-panel.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/student-panel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/student-panel.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/base/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/teach/javafx/base/login-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,20 +21,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LiZhe792/newFrontEnd.git",
-    "accountId": "b3588e13-85ff-48b9-8b4e-438b35f120c7"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;QH996&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LiZhe792/newFrontEnd.git&quot;,
+    &quot;accountId&quot;: &quot;b3588e13-85ff-48b9-8b4e-438b35f120c7&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -128,7 +61,7 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/qinghan/Desktop/CommonMethod.java",
     "two.files.diff.last.used.file": "C:/Users/qinghan/Desktop/CommonMethod.java",
-    "应用程序.MainApplication.executor": "Debug"
+    "应用程序.MainApplication.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -171,6 +104,30 @@
       <option name="presentableId" value="Default" />
       <updated>1747842578532</updated>
     </task>
+    <task id="LOCAL-00001" summary="代码合并2">
+      <option name="closed" value="true" />
+      <created>1748183185498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748183185498</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="代码合并2" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码合并2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/teach/javafx/controller/CourseAttendanceController.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

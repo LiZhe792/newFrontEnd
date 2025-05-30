@@ -50,8 +50,7 @@ public class MarksController {
     private List<OptionItem> courseList;
     private String num;
     private String userName;
-    @FXML
-    private Label studentNameField;
+
     String userType;
     @FXML
     private Label avgMarks;
@@ -104,7 +103,7 @@ public class MarksController {
             dataTableView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             onQueryButtonClick();
         }else {
-            studentNameField.setText(userName);
+
             studentNumColumn.setCellValueFactory(new MapValueFactory("studentNum"));  //设置列值工程属性
             studentNameColumn.setCellValueFactory(new MapValueFactory<>("studentName"));
             courseNameColumn.setCellValueFactory(new MapValueFactory<>("courseName"));
